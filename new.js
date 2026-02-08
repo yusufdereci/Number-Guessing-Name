@@ -1,18 +1,17 @@
 const min = 1;
 const max = 100;
 
-// Rastgele sayı üret
+
 let answer = Math.floor(Math.random() * (max - min + 1)) + min;
 
 let tries = 0;
 
-// HTML elemanları
 const input = document.getElementById("guessInput");
 const button = document.getElementById("guessBtn");
 const message = document.getElementById("message");
 const triesText = document.getElementById("tries");
 
-// Butona tıklama olayı
+
 button.addEventListener("click", checkGuess);
 
 function checkGuess() {
@@ -47,3 +46,4 @@ function checkGuess() {
 
     input.value = "";
 }
+
