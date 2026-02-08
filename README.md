@@ -12,6 +12,4 @@ This is a simple number guessing game built with:
 - Click "Guess"
 - Try to find the correct number
 
-## Live Demo
 
-Coming soon...
